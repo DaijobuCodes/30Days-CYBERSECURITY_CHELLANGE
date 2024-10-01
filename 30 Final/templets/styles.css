@@ -110,6 +110,7 @@ h2 {
     background-color: #004d99;
 }
 
+
 /* CSS of index.html */
  
         * {
@@ -157,12 +158,17 @@ h2 {
             font-size: 40px;;
         }
 
+        .heading{
+            align-items: center;
+        }
+
         .heading p{
             text-align: center;
-            font-size: medium;
-            padding-left: 70px;
-            padding-right: 70px;
-            padding-bottom: 30px;
+            font-size: 18px;
+            align-items: center;
+            padding-left: 100px;
+            padding-right: 100px;
+            padding-bottom: 20px;
         }
 
         .header img{
@@ -173,6 +179,17 @@ h2 {
         .header a{
             text-decoration: none;
             color: #8326aa;
+        }
+
+        .header h4{
+            
+            width: 24%;
+            border-radius: 10px;
+            height: 30px;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            margin-right: 100px;
         }
 
         .logo {
@@ -189,8 +206,8 @@ h2 {
         .days-container {
             display: grid;
             grid-template-columns: repeat(6, 1fr);
-            gap: 10px;
-            margin: 10px 0;
+            gap: 8px;
+            margin: 8px 0;
             
         }
 
@@ -252,20 +269,6 @@ h2 {
         }
         
 
-        .credits-link {
-            text-align: center;
-            margin-top: 20px;
-        }
-
-        .credits-link a {
-            color: #0066cc;
-            text-decoration: none;
-            font-size: 1em; /* Adjusted font size for smaller text */
-        }
-
-        .credits-link a:hover {
-            text-decoration: underline;
-        }
 
 
         * {
@@ -377,4 +380,43 @@ h2 {
 
         .back-button a:hover {
             background-color: #004d99;
+        }
+
+        .message {
+            display: none; /* Initially hidden */
+            margin-top: 20px;
+            color: red; /* Change color as needed */
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #995EF3;
+            color: #ffffff;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+            margin-top: 15px;
+          
+        }
+        footer p{
+            color: white;
+            margin: 0%;
+        }
+
+        .header1 img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 20px;
+        }
+
+        .credits a{
+            justify-content: center;
+            margin-left: 750px;
+            margin-top: 40px;
+            padding-top: 40px;
+            text-decoration: none;
         }

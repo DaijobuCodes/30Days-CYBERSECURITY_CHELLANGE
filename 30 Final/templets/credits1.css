@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #2c3e50;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    color: #3498db;
+    text-align: left;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+}
+
+.card h3 {
+    font-size: 14px;
+    color: #2c3e50;
+    margin-bottom: 5px;
+    position: absolute;
+    padding-left: 750px;
+    padding-top: 6%;
+}
+
+p {
+    text-align: center;
+    font-size: large;
+}
+
+.credits-section {
+    margin-bottom: 50px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.card h4 {
+    font-size: 16px;
+    color: #2c3e50;
+    margin-bottom: 5px;
+    position: absolute;
+    padding-left: 800px;
+    padding-top: 1%;
+
+
+}
+
+.card p {
+    font-size: 16px;
+    font-style: bold;
+    width: 60%;
+    
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #ece6f7;
+    transition: background-color 0.3s ease;
+}
+
+/* ul li:hover {
+    background-color: #d9ceef;
+} */
+
+ul li strong {
+    color: #3498db;
+    font-weight: 600;
+}
+
+.contact p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact a {
+    color: #3498db;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    color: #583D82;
+}
+
+.back-button {
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.back-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #583D82;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.back-button a:hover {
+    background-color: #3f2a62;
+    transform: translateY(-3px);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .card img {
+        margin-bottom: 15px;
+    }
+}

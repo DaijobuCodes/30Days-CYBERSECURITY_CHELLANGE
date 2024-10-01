@@ -8,3 +8,8 @@ window.addEventListener('DOMContentLoaded', (event) => {
         }, index * 300);
     });
 });
+
+function showMessage() {
+    // Get the paragraph element by ID and make it visible
+    document.getElementById("message").style.display = "block";
+}

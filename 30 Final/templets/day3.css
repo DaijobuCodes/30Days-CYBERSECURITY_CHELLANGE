@@ -15,7 +15,7 @@ body {
 
 /* Header Styling */
 header {
-    background-color: #2e86c1;
+    background-color: #995ef3;
     padding: 20px;
     text-align: center;
     color: #fff;
@@ -25,18 +25,18 @@ header {
 .head p {
     font-size: 2.5em;
     font-weight: bolder;
-    color: #2e86c1;
+    color: #583d82;
     text-align: center;
     margin: 20px 0;
 }
 
 .head a {
     text-decoration: none;
-    color: #2e86c1;
+    color: #995ef3;
 }
 
 .head a:hover {
-    color: #1f618d;
+    color: #995ef3;
 }
 
 /* Main Container */
@@ -66,7 +66,7 @@ h1 {
 }
 
 h2 {
-    color: #2e86c1;
+    color: #583d82;
     margin-bottom: 10px;
     font-size: 1.8em;
 }
@@ -86,7 +86,7 @@ ul {
 .calendar-day {
     background-color: #fff;
     border-radius: 50%;
-    color: #2e86c1;
+    color: #995ef3;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     font-weight: bold;
     font-size: 30px;
@@ -139,15 +139,15 @@ ul {
     padding: 10px 20px;
     font-size: 15px;
     background-color: transparent;
-    border: 2px solid #2e86c1;
-    color: #2e86c1;
+    border: 2px solid #995ef3;
+    color: #995ef3;
     border-radius: 5px;
     cursor: pointer;
     font-weight: bold;
 }
 
 .instruction:hover {
-    background-color: #2e86c1;
+    background-color: #995ef3;
     color: white;
 }
 
@@ -191,7 +191,7 @@ ul {
 }
 
 .button {
-    background-color: #4a90e2;
+    background-color: #995ef3;
     color: white;
     padding: 12px 25px;
     border-radius: 25px;
@@ -203,7 +203,7 @@ ul {
 }
 
 .button:hover {
-    background-color: #0073e6;
+    background-color: #995ef3;
     transform: translateY(-3px);
 }
 
@@ -215,7 +215,7 @@ ul {
 
 .back-button a {
     padding: 10px 20px;
-    background-color: #2e86c1;
+    background-color: #995ef3;
     color: white;
     border-radius: 5px;
     text-decoration: none;
@@ -223,14 +223,14 @@ ul {
 }
 
 .back-button a:hover {
-    background-color: #1f618d;
+    background-color: #995ef3;
 }
 
 /* Footer */
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #2e86c1;
+    background-color: #995ef3;
     position: relative;
     width: 100%;
     bottom: 0;

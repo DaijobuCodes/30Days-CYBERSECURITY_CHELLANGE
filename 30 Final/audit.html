@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audit Your Network: A Crucial Task</title>
+    <link rel="stylesheet" href="templets/audit.css">
+    <script src="script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="calendar">
+            <div class="calendar-day">
+                <p>Day 8</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <div class="head">
+        <p><a href="index.html"> <b>Network Security Challenge</b></a></p>
+    </div>
+
+    <!-- Main Content Section -->
+    <div class="container">
+        <section class="intro">
+            <h1>One-Day Network Audit Challenge: Why Regularly Auditing Your Network is Essential</h1>
+            <p>In today's digital landscape, our devices are more connected than ever, making it critical to regularly audit the devices connected to your network. Unauthorized or unfamiliar devices can pose serious security threats, and disconnecting them immediately is your first line of defense.</p>
+            <!-- <img src="strong-password.jpg" alt="Strong Passwords" class="responsive-img"> -->
+        </section>
+
+        <section class="impact-card">
+            <h2>Real-Life Incident</h2>
+            <p>In 2020, a major retailer suffered a data breach after attackers gained access through an unsecured smart device connected to their network. The breach exposed thousands of customer records and highlighted the importance of auditing devices regularly to prevent unauthorized access.</p>
+            
+        </section>
+
+        <section class="risks-card">
+            
+            <h2>Risks of Not Auditing Your Network</h2>
+            <p>Failing to audit your network can expose you to significant risks, such as:</p>
+            <ul>
+                <li>Unauthorized access to personal and sensitive information.</li>
+                <li>Compromised devices that can be used to launch cyberattacks.</li>
+                <li>Slow network performance due to unwanted devices consuming bandwidth.</li>
+                <li>Risk of being part of a botnet, where your devices are used for malicious purposes.</li>
+            </ul>
+             </section>
+
+        <section class="steps-card">
+            <h2>Challenge Steps</h2>
+            <div class="steps">
+                <div class="step">
+                    <label for="step1">
+                        <h3>Step 1: Log into Your Router</h3>
+                        <button class="instruction">Instructions</button>
+                    </label>
+                    <div class="instruction-content" style="display: none;">
+                        <p><b>Instructions:</b> Access your router’s settings by typing its IP address into your browser's URL bar. From there, you can see all connected devices.</p>
+                        <img src="static/Audit_1.jpg" alt="audit1" class="responsive-img">
+                    </div>
+                </div>
+                <div class="step">
+                    <label for="step2">
+                        <h3>Step 2: Identify All Devices</h3>
+                        <button class="instruction">Instructions</button>
+                    </label>
+                    <div class="instruction-content" style="display: none;">
+
+                    <p><b>Instructions:</b> Review the list of devices. Match each device with something you or someone in your home or office uses. Note any unfamiliar devices.</p>
+                    <img src="static/Audit_2.jpg" alt="audit2" class="responsive-img">
+                    </div>
+                </div>
+                <div class="step">
+                    <label for="step3">
+                        <h3>Step 3: Disconnect Unfamiliar Devices</h3>
+                        <button class="instruction">Instructions</button>
+                    </label>
+                    <div class="instruction-content" style="display: none;">
+
+                    <p><b>Instructions:</b> If you see any devices that you don’t recognize, disconnect them immediately and change your Wi-Fi password to secure your network.</p>
+                        <img src="static/Audit_3.jpg" alt="Audit_3" class="responsive-img">
+                    </div>
+                </div>
+                <div class="step">
+                    <label for="step4">
+                        <h3>Step 4: Secure Each Device</h3>
+                        <button class="instruction">Instructions</button>
+                    </label>
+                    <div class="instruction-content" style="display: none;">
+
+                    <p><b>Instructions:</b> Ensure each device connected to your network has strong security settings in place, such as updated software and strong passwords.</p>
+                        <img src="static/Audit_4.jpg" alt="audit4" class="responsive-img">
+                        </div>
+
+                </div>
+                <div class="step">
+                    <label for="step5">
+                        <h3>Step 5: Regularly Monitor Your Network</h3>
+                        <button class="instruction">Instructions</button>
+                    </label>
+                    <div class="instruction-content" style="display: none;">
+
+                    <p><b>Instructions:</b> Make it a habit to audit your network at least once a month. Use network monitoring tools to get alerts when unfamiliar devices connect to your network.</p>
+                        <img src="static/Audit_5.jpg" alt="audit5" class="responsive-img">
+                        </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Back Button -->
+        <div class="back-button">
+            <a href="index.html" id="complete" class="button">Done</a>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2024 Password Strength Challenge. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const instructButtons = document.getElementsByClassName('instruction');
+        for (let i = 0; i < instructButtons.length; i++) {
+            instructButtons[i].addEventListener('click', function() {
+                const content = this.parentElement.nextElementSibling;
+                if (content.style.display === 'block') {
+                    content.style.display = 'none';
+                } else {
+                    content.style.display = 'block';
+                }
+            });
+        }
+
+        let slideIndexInstagram = 0;
+        let slideIndexFacebook = 0;
+        let slideIndexTwitter = 0;
+
+        function showSlidesInstagram(n) {
+            const slides = document.getElementById("instagram-slideshow").getElementsByClassName("mySlides");
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndexInstagram += n;
+            if (slideIndexInstagram >= slides.length) { slideIndexInstagram = 0; }
+            if (slideIndexInstagram < 0) { slideIndexInstagram = slides.length - 1; }
+            slides[slideIndexInstagram].style.display = "block";
+        }
+
+        function plusSlidesInstagram(n) {
+            showSlidesInstagram(n);
+        }
+
+        function showSlidesFacebook(n) {
+            const slides = document.getElementById("gmail-slideshow").getElementsByClassName("mySlides");
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndexFacebook += n;
+            if (slideIndexFacebook >= slides.length) { slideIndexFacebook = 0; }
+            if (slideIndexFacebook < 0) { slideIndexFacebook = slides.length - 1; }
+            slides[slideIndexFacebook].style.display = "block";
+        }
+
+        function plusSlidesFacebook(n) {
+            showSlidesFacebook(n);
+        }
+
+        function showSlidesTwitter(n) {
+            const slides = document.getElementById("twitter-slideshow").getElementsByClassName("mySlides");
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndexTwitter += n;
+            if (slideIndexTwitter >= slides.length) { slideIndexTwitter = 0; }
+            if (slideIndexTwitter < 0) { slideIndexTwitter = slides.length - 1; }
+            slides[slideIndexTwitter].style.display = "block";
+        }
+
+        function plusSlidesTwitter(n) {
+            showSlidesTwitter(n);
+        }
+
+        // Initial display
+        showSlidesInstagram(0);
+        showSlidesFacebook(0);
+        showSlidesTwitter(0);
+    </script>
+    
+</body>
+</html>

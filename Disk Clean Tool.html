@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disk Cleanup Tools: Optimizing Your PC</title>
+    <link rel="stylesheet" href="day2 css.css">
+    <script src="script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="calendar">
+            <div class="calendar-day">
+                <p>Day 16</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <div class="head">
+        <p><a href="index.html"> <b>Disk Cleanup Tools Guide</b></a></p>
+    </div>
+
+    <!-- Main Content Section -->
+    <div class="container">
+        <section class="intro">
+            <h1>Optimize Your PC with Disk Cleanup Tools</h1>
+            <p>When your PC starts running slow or low on storage, disk cleanup tools come in handy to free up space. Windows provides built-in and third-party tools that help in identifying and deleting unnecessary files to optimize system performance.</p>
+            <img src="static/pc-cleanup.jpg" alt="PC Cleanup" class="responsive-img">
+        </section>
+
+        <!-- Windows Disk Cleanup Section -->
+        <section class="impact-card">
+            <h2>Windows Disk Cleanup (Built-In Tool)</h2>
+            <p>Windows' built-in Disk Cleanup tool is simple, straightforward, and accessible without any extra downloads.</p>
+            <ul>
+                <li><b>Temporary File Deletion:</b> Removes temporary files, system cache, thumbnails, and error reports.</li>
+                <li><b>Recycle Bin Cleanup:</b> Deletes files sitting in the Recycle Bin.</li>
+                <li><b>System Files Cleanup:</b> Remove system files like previous Windows installations and system restore points.</li>
+                <li><b>Hibernation File Deletion:</b> Deletes the large hibernation file (if enabled).</li>
+            </ul>
+            <img src="static/windows-disk-cleanup.jpg" alt="Windows Disk Cleanup" class="responsive-img">
+        </section>
+
+        <!-- Storage Sense Section -->
+        <section class="risks-card">
+            <h2>Storage Sense (Windows 10 & 11)</h2>
+            <p>Storage Sense is a feature in Windows 10 & 11 that can automatically free up space by deleting unnecessary files over time.</p>
+            <ul>
+                <li><b>Automatic Cleanup:</b> Automatically removes files you no longer need.</li>
+                <li><b>OneDrive Integration:</b> Moves local OneDrive files to the cloud to save space.</li>
+                <li><b>Old Downloads:</b> Deletes unused files in the Downloads folder after a set period.</li>
+            </ul>
+            <img src="static/storage-sense.jpg" alt="Storage Sense" class="responsive-img">
+        </section>
+
+        <!-- WinDirStat Section -->
+        <section class="steps-card">
+            <h2>WinDirStat (Windows Directory Statistics)</h2>
+            <div class="steps">
+                <div class="step">
+                    <label for="step1">
+                        <h3>Step 1: Visualize Disk Usage</h3>
+                        <button class="instruction">Instructions</button>
+                    </label>
+                    <div class="instruction-content" style="display: none;">
+                        <p><b>Instructions:</b> Download and install WinDirStat from its official website. Launch the program and select the drive(s) you want to analyze. The tool will display a color-coded treemap to help you visualize large files and folders.</p>
+                        <img src="static/windirstat-visualization.jpg" alt="WinDirStat Visualization" class="responsive-img">
+                    </div>
+                </div>
+
+                <div class="step">
+                    <label for="step2">
+                        <h3>Step 2: Clean Up Large Files</h3>
+                        <button class="instruction">Instructions</button>
+                    </label>
+                    <div class="instruction-content" style="display: none;">
+                        <p><b>Instructions:</b> After analyzing your disk, you can directly delete or move large files and folders from within WinDirStat. Right-click any file or folder in the treemap to manage it.</p>
+                        <img src="static/windirstat-cleanup.jpg" alt="WinDirStat Cleanup" class="responsive-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Third-Party Tools Section -->
+        <section class="steps-card">
+            <h2>Other Third-Party Tools</h2>
+            <p>Aside from WinDirStat, several third-party tools offer additional features for disk cleanup and optimization:</p>
+            <ul>
+                <li><b>CCleaner:</b> Offers a more automated cleanup process, including registry cleaning and software uninstallation.</li>
+                <li><b>TreeSize:</b> A paid tool offering advanced features like scheduling and business-oriented usage.</li>
+            </ul>
+            <img src="static/third-party-tools.jpg" alt="Third Party Tools" class="responsive-img">
+        </section>
+
+        <!-- Back Button -->
+        <div class="back-button">
+            <a href="index.html" id="complete" class="button">Done</a>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2024 Disk Cleanup Guide. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const instructButtons = document.getElementsByClassName('instruction');
+        for (let i = 0; i < instructButtons.length; i++) {
+            instructButtons[i].addEventListener('click', function() {
+                const content = this.parentElement.nextElementSibling;
+                if (content.style.display === 'block') {
+                    content.style.display = 'none';
+                } else {
+                    content.style.display = 'block';
+                }
+            });
+        }
+    </script>
+
+</body>
+</html>

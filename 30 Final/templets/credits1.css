@@ -81,15 +81,12 @@ p {
     position: absolute;
     padding-left: 800px;
     padding-top: 1%;
-
-
 }
 
 .card p {
     font-size: 16px;
     font-style: bold;
     width: 60%;
-    
 }
 
 ul {
@@ -105,10 +102,6 @@ ul li {
     background-color: #ece6f7;
     transition: background-color 0.3s ease;
 }
-
-/* ul li:hover {
-    background-color: #d9ceef;
-} */
 
 ul li strong {
     color: #3498db;
@@ -139,6 +132,7 @@ ul li strong {
     display: inline-block;
     padding: 10px 20px;
     background-color: #583D82;
+    text-decoration: none;
     color: white;
     border-radius: 5px;
     font-weight: bold;
@@ -152,6 +146,19 @@ ul li strong {
 
 /* Responsive Design */
 @media screen and (max-width: 768px) {
+    .container {
+        margin: 20px;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
     .card {
         flex-direction: column;
         text-align: center;
@@ -159,5 +166,61 @@ ul li strong {
 
     .card img {
         margin-bottom: 15px;
+        width: 80px;
+        height: 80px;
+    }
+
+    .card h4, .card h3 {
+        position: static;
+        padding-left: 0;
+        padding-top: 0;
+    }
+
+    .card p {
+        width: 100%;
+    }
+
+    p {
+        font-size: medium;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .card img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .card h4 {
+        font-size: 14px;
+    }
+
+    .card p {
+        font-size: 14px;
+    }
+
+    ul li {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: small;
+    }
+
+    .back-button a {
+        padding: 8px 16px;
     }
 }

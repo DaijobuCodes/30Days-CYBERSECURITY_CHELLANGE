@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Disk Cleanup Tools: Optimizing Your PC</title>
+    <title>Disk Cleanup Guide for Windows</title>
     <link rel="stylesheet" href="day2 css.css">
     <script src="script.js" defer></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
@@ -20,79 +20,115 @@
 
     <!-- Navigation -->
     <div class="head">
-        <p><a href="index.html"> <b>Disk Cleanup Tools Guide</b></a></p>
+        <p><a href="index.html"> <b>Disk Cleanup Guide</b></a></p>
     </div>
 
     <!-- Main Content Section -->
     <div class="container">
         <section class="intro">
-            <h1>Optimize Your PC with Disk Cleanup Tools</h1>
-            <p>When your PC starts running slow or low on storage, disk cleanup tools come in handy to free up space. Windows provides built-in and third-party tools that help in identifying and deleting unnecessary files to optimize system performance.</p>
-            <img src="static/pc-cleanup.jpg" alt="PC Cleanup" class="responsive-img">
+            <h1>One-Day Disk Cleanup Challenge: Free Up Space and Boost Your PC Performance</h1>
+            <p>Cleaning up unnecessary files can improve your PC's performance and free up valuable disk space. This guide will walk you through using both Windows' built-in Disk Cleanup tool, Storage Sense, and the popular third-party utility, WinDirStat.</p>
+            <img src="static/disk-cleanup.jpg" alt="Disk Cleanup" class="responsive-img">
         </section>
 
-        <!-- Windows Disk Cleanup Section -->
+        <!-- Real-Life Example Section -->
         <section class="impact-card">
-            <h2>Windows Disk Cleanup (Built-In Tool)</h2>
-            <p>Windows' built-in Disk Cleanup tool is simple, straightforward, and accessible without any extra downloads.</p>
-            <ul>
-                <li><b>Temporary File Deletion:</b> Removes temporary files, system cache, thumbnails, and error reports.</li>
-                <li><b>Recycle Bin Cleanup:</b> Deletes files sitting in the Recycle Bin.</li>
-                <li><b>System Files Cleanup:</b> Remove system files like previous Windows installations and system restore points.</li>
-                <li><b>Hibernation File Deletion:</b> Deletes the large hibernation file (if enabled).</li>
-            </ul>
-            <img src="static/windows-disk-cleanup.jpg" alt="Windows Disk Cleanup" class="responsive-img">
+            <h2>Real-Life Example of Disk Clutter Impact</h2>
+            <p>In 2021, a large IT company faced performance issues across their machines due to disk clutter. Several systems had slowed down because they were running out of storage space, leading to lost productivity. By performing regular disk cleanups, they regained valuable space and enhanced system efficiency, saving thousands of dollars in hardware upgrades.</p>
+            <img src="static/disk-clutter.jpg" alt="Disk Clutter" class="responsive-img">
         </section>
 
-        <!-- Storage Sense Section -->
+        <!-- Why Disk Cleanup Is Important Section -->
         <section class="risks-card">
-            <h2>Storage Sense (Windows 10 & 11)</h2>
-            <p>Storage Sense is a feature in Windows 10 & 11 that can automatically free up space by deleting unnecessary files over time.</p>
+            <h2>Why Disk Cleanup is Important</h2>
+            <p>Failing to clean up your disk regularly can lead to the following risks:</p>
             <ul>
-                <li><b>Automatic Cleanup:</b> Automatically removes files you no longer need.</li>
-                <li><b>OneDrive Integration:</b> Moves local OneDrive files to the cloud to save space.</li>
-                <li><b>Old Downloads:</b> Deletes unused files in the Downloads folder after a set period.</li>
+                <li>Slower system performance and boot times.</li>
+                <li>Lack of storage space for new files and software.</li>
+                <li>Potential system crashes due to insufficient space.</li>
+                <li>Difficulty managing files and folders.</li>
             </ul>
-            <img src="static/storage-sense.jpg" alt="Storage Sense" class="responsive-img">
+            <img src="static/disk-risks.jpg" alt="Risks of Not Cleaning Your Disk" class="responsive-img">
         </section>
 
-        <!-- WinDirStat Section -->
         <section class="steps-card">
-            <h2>WinDirStat (Windows Directory Statistics)</h2>
+            <h2>Steps to Clean Up Your Disk on Windows</h2>
             <div class="steps">
+                
+                <!-- Step 1: Windows Disk Cleanup -->
                 <div class="step">
                     <label for="step1">
-                        <h3>Step 1: Visualize Disk Usage</h3>
+                        <h3>Step 1: Use Windows Disk Cleanup</h3>
                         <button class="instruction">Instructions</button>
                     </label>
                     <div class="instruction-content" style="display: none;">
-                        <p><b>Instructions:</b> Download and install WinDirStat from its official website. Launch the program and select the drive(s) you want to analyze. The tool will display a color-coded treemap to help you visualize large files and folders.</p>
-                        <img src="static/windirstat-visualization.jpg" alt="WinDirStat Visualization" class="responsive-img">
+                        <p><b>Key Features:</b></p>
+                        <ul>
+                            <li>Temporary File Deletion: Removes temporary files, system cache, thumbnails, error reports, etc.</li>
+                            <li>Recycle Bin Cleanup: Deletes files in the Recycle Bin.</li>
+                            <li>System Files: Clean up previous Windows installations and system restore points.</li>
+                            <li>Hibernation File Deletion: If hibernation is enabled, the tool can remove the associated file.</li>
+                        </ul>
+                        <p><b>How to Use:</b></p>
+                        <ol>
+                            <li>Open the Start menu and search for Disk Cleanup.</li>
+                            <li>Select the drive you want to clean (typically the C: drive).</li>
+                            <li>The tool will calculate how much space you can free up.</li>
+                            <li>Select the file types to delete and click OK to remove them.</li>
+                        </ol>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/fHqQNwrV4KY?si=SRsnHa0q4SHOBuLx" title="Windows Disk Cleanup Video"></iframe>
                     </div>
                 </div>
 
+                <!-- Step 2: Storage Sense -->
                 <div class="step">
                     <label for="step2">
-                        <h3>Step 2: Clean Up Large Files</h3>
+                        <h3>Step 2: Use Storage Sense (Windows 10 & 11)</h3>
                         <button class="instruction">Instructions</button>
                     </label>
                     <div class="instruction-content" style="display: none;">
-                        <p><b>Instructions:</b> After analyzing your disk, you can directly delete or move large files and folders from within WinDirStat. Right-click any file or folder in the treemap to manage it.</p>
-                        <img src="static/windirstat-cleanup.jpg" alt="WinDirStat Cleanup" class="responsive-img">
+                        <p><b>Key Features:</b></p>
+                        <ul>
+                            <li>Automatic Cleanup: Automatically removes files you no longer need, including temporary files and items in the recycle bin after a set period.</li>
+                            <li>OneDrive Files: Automatically moves local OneDrive files to the cloud to save space.</li>
+                            <li>Old Downloads: Deletes files in your Downloads folder that haven’t been used after a certain period.</li>
+                        </ul>
+                        <p><b>How to Use:</b></p>
+                        <ol>
+                            <li>Open Settings > System > Storage.</li>
+                            <li>Toggle Storage Sense on.</li>
+                            <li>Click on Configure Storage Sense to customize what files to delete automatically.</li>
+                        </ol>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/9nh_7bCVRJ0?si=ofD6lN8Y-1FNUn-A" title="Storage Sense Video"></iframe>
                     </div>
                 </div>
-            </div>
-        </section>
 
-        <!-- Third-Party Tools Section -->
-        <section class="steps-card">
-            <h2>Other Third-Party Tools</h2>
-            <p>Aside from WinDirStat, several third-party tools offer additional features for disk cleanup and optimization:</p>
-            <ul>
-                <li><b>CCleaner:</b> Offers a more automated cleanup process, including registry cleaning and software uninstallation.</li>
-                <li><b>TreeSize:</b> A paid tool offering advanced features like scheduling and business-oriented usage.</li>
-            </ul>
-            <img src="static/third-party-tools.jpg" alt="Third Party Tools" class="responsive-img">
+                <!-- Step 3: WinDirStat -->
+                <div class="step">
+                    <label for="step3">
+                        <h3>Step 3: Analyze Disk Usage with WinDirStat</h3>
+                        <button class="instruction">Instructions</button>
+                    </label>
+                    <div class="instruction-content" style="display: none;">
+                        <p><b>Key Features:</b></p>
+                        <ul>
+                            <li>Treemap Visualization: Displays disk usage as a color-coded treemap, making it easy to spot large files and folders.</li>
+                            <li>File Extensions Overview: Lists file extensions and types that take up the most space.</li>
+                            <li>Delete or Move Files: Directly delete, move, or analyze files from the interface.</li>
+                            <li>Open Source and Free: Free and highly regarded for visualizing disk usage.</li>
+                        </ul>
+                        <p><b>How to Use:</b></p>
+                        <ol>
+                            <li>Download and install WinDirStat from its official website.</li>
+                            <li>Launch the program and select the drive(s) you want to analyze.</li>
+                            <li>After the scan, you'll see a treemap showing file sizes. Larger blocks indicate larger files.</li>
+                            <li>Right-click on any file or folder to delete, move, or view its properties.</li>
+                        </ol>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/CR11NNE2sJg?si=sDWDDxnFIu8v5w7s" title="WinDirStat Video"></iframe>
+                    </div>
+                </div>
+
+            </div>
         </section>
 
         <!-- Back Button -->
@@ -119,6 +155,5 @@
             });
         }
     </script>
-
 </body>
 </html>

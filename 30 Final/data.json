@@ -1,0 +1,152 @@
+[
+    {
+        "day": 1,
+        "href": "day1new.html",
+        "title": "Software Update"
+    },
+    {
+        "day": 2,
+        "href": "day2.html",
+        "title": "Password Strength Challenge"
+    },
+    {
+        "day": 3,
+        "href": "day3.html",
+        "title": "Password Manager"
+    },
+    {
+        "day": 4,
+        "href": "day4.html",
+        "title": "MFA"
+    },
+    {
+        "day": 5,
+        "href": "day5.html",
+        "title": "Debloating"
+    },
+    {
+        "day": 6,
+        "href": "day6.html",
+        "title": "Uninstall unused Apps"
+    },
+    {
+        "day": 7,
+        "href": "day7.html",
+        "title": "Adblocker"
+    },
+    {
+        "day": 8,
+        "href": "day8.html",
+        "title": "Changing Wifi Passwords"
+    },
+    {
+        "day": 9,
+        "href": "day9.html",
+        "title": "Network Audit Challenge"
+    },
+    {
+        "day": 10,
+        "href": "day10.html",
+        "title": "Browser Saved Password"
+    },
+    {
+        "day": 11,
+        "href": "day11.html",
+        "title": " Arrays in JavaScript"
+    },
+    {
+        "day": 12,
+        "href": "day12.html",
+        "title": " Objects in JavaScript"
+    },
+    {
+        "day": 13,
+        "href": "day13.html",
+        "title": " APIs and Fetch"
+    },
+    {
+        "day": 14,
+        "href": "day14.html",
+        "title": " Introduction to Frameworks"
+    },
+    {
+        "day": 15,
+        "href": "day15.html",
+        "title": " JavaScript ES6 Features"
+    },
+    {
+        "day": 16,
+        "href": "day16.html",
+        "title": " Error Handling"
+    },
+    {
+        "day": 17,
+        "href": "day17.html",
+        "title": " Testing in JavaScript"
+    },
+    {
+        "day": 18,
+        "href": "day18.html",
+        "title": " Introduction to Node.js"
+    },
+    {
+        "day": 19,
+        "href": "day19.html",
+        "title": " Express.js Basics"
+    },
+    {
+        "day": 20,
+        "href": "day20.html",
+        "title": " Working with Databases"
+    },
+    {
+        "day": 21,
+        "href": "day21.html",
+        "title": " Authentication Basics"
+    },
+    {
+        "day": 22,
+        "href": "day22.html",
+        "title": " Deployment Strategies"
+    },
+    {
+        "day": 23,
+        "href": "day23.html",
+        "title": " SEO Fundamentals"
+    },
+    {
+        "day": 24,
+        "href": "day24.html",
+        "title": " Performance Optimization"
+    },
+    {
+        "day": 25,
+        "href": "day25.html",
+        "title": " Security Best Practices"
+    },
+    {
+        "day": 26,
+        "href": "day26.html",
+        "title": " Debugging Techniques"
+    },
+    {
+        "day": 27,
+        "href": "day27.html",
+        "title": " Advanced Topics in JS"
+    },
+    {
+        "day": 28,
+        "href": "day28.html",
+        "title": " Final Project Overview"
+    },
+    {
+        "day": 29,
+        "href": "day29.html",
+        "title": " Presentation Skills"
+    },
+    {
+        "day": 30,
+        "href": "day30.html",
+        "title": " Wrap Up and Next Steps"
+    }
+]

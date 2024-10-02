@@ -9,10 +9,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
-
     <h1>COMING SOON!!</h1>
 
+    <!-- Back Button -->
+    <button id="backButton" class="back-button">Go Back</button>
 
     <script>
         const instructButtons = document.getElementsByClassName('instruction');
@@ -26,7 +26,11 @@
                 }
             });
         }
+
+        // Back button functionality
+        document.getElementById('backButton').addEventListener('click', function() {
+            window.history.back(); // Goes back to the previous page
+        });
     </script>
-    
 </body>
 </html>

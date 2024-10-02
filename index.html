@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>30-Day Cybersecurity Awareness Challenge</title>
+    <link rel="stylesheet" href="templets/styles.css"> <!-- Link to the CSS file -->
+    <script>
+        // JavaScript function to show message when the link is clicked
+        function showMessage() {
+            // Get the paragraph element by ID and make it visible
+            document.getElementById("message").style.display = "block";
+
+            setTimeout(() => {
+                message.style.display = "none"; // Hide message
+            }, 3000);
+        }
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior:"smooth" // Smooth scroll effect
+            });
+        }
+    </script>
+</head>
+<body>
+    <section>
+
+    <div class="header">
+        <img src="static/MITADT-removebg-preview.png" alt="Group Logo" class="logo">
+        <!-- <h4 id="message">This page is currently inaccessible.</h4> -->
+        <div class="header1">
+            <img src="static/partner.jpg" alt="Group Logo" class="logo">
+        </div>
+        
+    </div>
+    <div class="heading">
+        <br>
+        <h1>Welcome to the 30-Day Cybersecurity Challenge! 🚀</h1>
+        <p>In the next 30 days, you’ll learn simple steps to boost your online security. Each day brings a new tip to protect your devices and accounts. Ready to make your digital life safer? Click below to start your challenge! 👇
+        </p>
+        
+    </div>
+    
+
+    <!-- <div class="credits-link">
+        <p><a href="credits.html">View Credits Page</a></p>
+    </div> -->
+
+    <div class="container">
+        
+        <div class="days-container" id="days-container">        </div>
+        
+    </div>
+        <div class="credits">
+           <a href="credits1.html">View Credits</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 30 Days CyberSecurity Challenge. All rights reserved.</p>
+    </footer>
+   
+    <script type="module" src="newScript.js"></script>
+</body>
+</html>

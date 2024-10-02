@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debloating</title>
+    <link rel="stylesheet" href="templets/day5new.css">
+    <script src="script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="calendar">
+            <div class="calendar-day">
+                <p>Day 5</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <div class="head">
+        <p><a href="index.html"> <b>Debloating</b></a></p>
+    </div>
+
+    <!-- Main Content Section -->
+    <div class="container">
+        <section class="intro">
+            <h2>Why Keeping Your System Clean is Important</h2>
+            <p>Debloating is like giving your device a clean-up by removing apps, features, or files you don't really need. This helps your smartphone, computer, or server run faster, use less memory, and stay more secure. It’s a simple way to make your system run smoother and feel more efficient!.</p>
+            <img src="static/bloatware-explained.png" alt ="Debloater" style="width:80%; max-width:700px; margin-left: 100px;">
+        </section>
+
+        <section class="impact-card">
+            <h2>Real-Life Incident: Windows 10 Bloatware Problems</h2>
+            <p> One notable example of bloating occurred with Windows 10. Microsoft pre-installed a range of apps that many users considered unnecessary, such as games and trial software. In 2018, Microsoft faced backlash for including apps like "Candy Crush Saga" and other "bloatware" on devices. These apps took up valuable system resources, reducing performance and frustrating users, especially those on older or lower-end devices.</p>
+
+            <p>This led to many users manually removing these apps, and several tutorials and software programs were developed to help people clean their systems. It highlighted the importance of debloating and the consequences of bloated systems on both user experience and security.</p>
+            <img src="static/bloatware.jpg" alt ="Debloater" style="width:80%; max-width:700px; margin-left: 100px;">
+        </section>
+
+        <section class="risks-card">
+            <h2>Risks of Not Debloating</h2>
+            <p>Failing to debloat a system leads to several risks, including:</p>
+                <ul>
+                    <li>Degraded Performance.</li>
+                    <li>Increased Security Risks.</li>
+                    <li>Lower Efficiency and Usability.</li>
+                    <li>Resource Wastage.</li>
+                </ul>
+            
+        </section>
+
+        <section class="steps-card">
+            <h2>Challenge Steps</h2>
+            <div class="steps">
+                <div class="step">
+                    <label for="step1">
+                        <h3>Step 1: Evaluate the System’s Condition</h3> 
+                        <button class="instruction">Instructions</button>
+                    </label>
+                    <div class="instruction-content" style="display: none;">
+                        <p><b>Challenge:</b>Assess which applications and processes are necessary for the system to run. Look for apps or processes that consume significant CPU or memory without providing essential functions.</p>
+                        <p><b>Tools to Use:</b>Use tools like Task Manager (Windows), Activity Monitor (macOS), or top/htop (Linux) to monitor resource usage.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <label for="step2">
+                        <h3>Step 2: Identify Bloatware</h3> 
+                        <button class="instruction">Instructions</button>
+                    </label>
+                    <div class="instruction-content" style="display: none;">
+                        <p><b>Challenge:</b>Find software that you don’t use or recognize. Pay attention to trialware, pre-installed apps, and background services.</p>
+                        <p><b>Tools to Use:</b>Use built-in uninstallers, or third-party tools like PC Decrapifier or Android's Debloater.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <label for="step3">
+                        <h3>Step 3: Prioritize Which Software to Remove</h3> 
+                        <button class="instruction">Instructions</button>
+                    </label>
+                    <div class="instruction-content" style="display: none;">
+                        <p><b>Challenge:</b>Determine what can be safely removed. Some software may be tied to essential system functions.</p>
+                        <p><b>Tip:</b>Always create a backup before removing any programs to avoid system instability.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <label for="step4">
+                        <h3>Step 4: Uninstall the Bloatware</h3> 
+                        <button class="instruction">Instructions</button>
+                    </label>
+                    <div class="instruction-content" style="display: none;">
+                        <p><b>Challenge:</b>Remove the identified unnecessary applications and services.</p>
+                        <p><b>Tools to use:</b>You can use Control Panel (Windows), CleanMyMac (macOS), or package managers like APT (Linux) for uninstallation.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <label for="step5">
+                        <h3>Step 5: Disable Unnecessary Startup Programs</h3> 
+                        <button class="instruction">Instructions</button>
+                    </label>
+                    <div class="instruction-content" style="display: none;">
+                        <p><b>Challenge:</b>Certain programs automatically launch at startup, consuming resources right away.</p>
+                        <p><b>Tools to Use:</b>Windows’ Task Manager, macOS’s Login Items, or Linux's systemctl can be used to manage startup programs.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <label for="step6">
+                        <h3>Step 6: Optimize Remaining Software</h3> 
+                        <button class="instruction">Instructions</button>
+                    </label>
+                    <div class="instruction-content" style="display: none;">
+                        <p><b>Challenge:</b>After debloating, ensure the remaining software is optimized. Update essential programs and clean temporary files to maintain a lean system.</p>
+                        <p><b>Tools to Use:</b>Use tools like CCleaner, or the system's built-in disk cleanup features.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="videos">
+            <h2>Reference: </h2>
+            <iframe width="460" height="315" src="https://www.youtube.com/embed/mZm6mY3I7J4?si=I1gBppJw-Z628vgF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="460" height="315" src="https://www.youtube.com/embed/YYMY5dOPV1g?si=7eLC-Ui5Lg722ZVB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <!-- Back Button -->
+        <div class="back-button">
+            <a href="index.html" id="complete" class="button">Done</a>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2024 30 Days Cybersecurity Challenge. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const instructButtons = document.getElementsByClassName('instruction');
+        for (let i = 0; i < instructButtons.length; i++) {
+            instructButtons[i].addEventListener('click', function() {
+                const content = this.parentElement.nextElementSibling;
+                if (content.style.display === 'block') {
+                    content.style.display = 'none';
+                } else {
+                    content.style.display = 'block';
+                }
+            });
+        }
+    </script>
+    
+</body>
+</html>

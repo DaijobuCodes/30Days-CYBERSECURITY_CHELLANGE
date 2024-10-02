@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MFA Setup: A Crucial Taskk</title>
+    <link rel="stylesheet" href="templets/day4.css">
+    <script src="script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="calendar">
+            <div class="calendar-day">
+                <p>Day 4</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <div class="head">
+        <p><a href="index.html"> <b>MFA Setup Challenge</b></a></p>
+    </div>
+
+    <!-- Main Content Section -->
+    <div class="container">
+        <section class="intro">
+            <h1>Why Multi-Factor Authentication (MFA) is Essential</h1>
+            <p>In today’s digital world, enabling Multi-Factor Authentication (MFA) is crucial for protecting your accounts from unauthorized access.</p>
+            <!-- <img src="strong-password.jpg" alt="Strong Passwords" class="responsive-img"> -->
+        </section>
+
+        <section class="impact-card">
+            <h2>Importance of MFA</h2>
+            <!-- <p>In 2019, the data breach of a major social media platform exposed millions of user passwords that were stored in plain text. This incident underlined the necessity of using strong, unique passwords for each account to safeguard against such breaches. The breach led to financial loss and damaged the company's reputation.</p> -->
+            <p>Multi-Factor Authentication is essential because it:</p>
+            <ul>
+                <li><b>Enhances Security:</b> Adds an extra layer of protection beyond just a password.</li>
+                <li><b>Reduces Risk:</b> Lowers the chances of unauthorized access.</li>
+                <li><b>Increases User Confidence:</b> Builds trust with users.</li>
+            </ul>
+            <!-- <img src="data-breach.jpg" alt="Data Breach Incident" class="responsive-img"> -->
+        </section>
+
+        <!-- <section class="risks-card">
+            <h2>Risks of Weak Passwords</h2>
+            <p>Using weak passwords can expose you to various risks, including:</p>
+            <ul>
+                <li>Unauthorized access to personal and financial accounts.</li>
+                <li>Identity theft and financial loss.</li>
+                <li>Loss of data and privacy breaches.</li>
+                <li>Permanent damage to your online reputation.</li>
+            </ul>
+            <img src="password-risks.jpg" alt="Risks of Weak Passwords" class="responsive-img">
+        </section> -->
+
+        <section class="steps-card">
+            <h2>Challenge Steps</h2>
+            <div class="steps">
+                <div class="step">
+                    <label for="step1">
+                        <h3>Visual Guide: Enabling 2FA on Instagram</h3> 
+                        <button class="instruction">Instructions</button>
+                    </label>
+                    <div class="instruction-content" style="display: none;">
+                        <div class="slideshow-container" id="instagram-slideshow">
+                            <div class="mySlides">
+                                <img src="static/step1_instagram.webp" alt="Instagram MFA Step 1">
+                                <div class="step-caption">Step 1: Open the Instagram app and go to your profile.</div>
+                            </div>
+                            <div class="mySlides">
+                                <img src="static/step2_instagram.jpeg" alt="Instagram MFA Step 2">
+                                <div class="step-caption">Step 2: Tap the menu icon in the top right corner.</div>
+                            </div>
+                            <div class="mySlides">
+                                <img src="static/step3_instagram.jpeg" alt="Instagram MFA Step 3">
+                                <div class="step-caption">Step 3: Select Settings and tap Security. Tap Two-Factor Authentication and choose Get Started.</div>
+                            </div>
+                            <div class="mySlides">
+                                <img src="static/step4_instagram.jpeg" alt="Instagram MFA Step 5">
+                                <div class="step-caption">Step 4: Choose your method (Text or App) and follow the prompts.</div>
+                            </div>
+                            <div class="mySlides">
+                                <img src="static/step5_instagram.jpeg" alt="Instagram MFA Step 5">
+                                <div class="step-caption">Step 5: Save Backup codes</div>
+                            </div>
+                            <div class="mySlides">
+                                <img src="static/step6_instagram.jpeg" alt="Instagram MFA Step 5">
+                                <div class="step-caption">Step 6: Save Account details</div>
+                            </div>
+                            <div class="mySlides">
+                                <img src="static/step7_instagram.jpeg" alt="Instagram MFA Step 5">
+                                <div class="step-caption">Step 7: Open Authenticator App</div>
+                            </div>
+                            <div class="mySlides">
+                                <img src="static/step8_instagram.jpeg" alt="Instagram MFA Step 5">
+                                <div class="step-caption">Step 8: Enter otp from Authenticator</div>
+                            </div>
+                            <!-- Add more Instagram visual steps as necessary -->
+                        </div>
+                        <div class="button-container">
+                            <button class="button" onclick="plusSlidesInstagram(-1)">&#10094; Previous</button>
+                            <button class="button" onclick="plusSlidesInstagram(1)">Next &#10095;</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="step">
+                    <label for="step2">
+                        <h3>Visual Guide: Enabling 2FA on Gmail</h3> 
+                        <button class="instruction">Instructions</button>
+                    </label>
+                    <div class="instruction-content" style="display: none;">
+                        <div class="slideshow-container" id="gmail-slideshow">
+                            <div class="mySlides">
+                                <img src="static/gmail_1.png" alt="Gmail 2FA Step 1">
+                                <div class="step-caption">Step 1: Open Gmail and tap your profile picture in the top right corner</div>
+                            </div>
+                            <div class="mySlides">
+                                <img src="static/gmail_2.jpeg" alt="Gmail 2FA Step 2">
+                                <div class="step-caption">Step 2: Swipe to the Security tab. Scroll down and tap on Two-Step Verification </div>
+                            </div>
+                            <div class="mySlides">
+                                <img src="static/gmail_3.jpeg" alt="Gmail 2FA Step 3">
+                                <div class="step-caption">Step 3: Tap Get Started.</div>
+                            </div>
+                            <div class="mySlides">
+                                <img src="static/gmail_4.jpeg" alt="Gmail 2FA Step 4">
+                                <div class="step-caption">Step 4: Choose your authentication method (SMS or Authenticator App).</div>
+                            </div>
+                            <div class="mySlides">
+                                <img src="static/gmail_5.jpeg" alt="Gmail 2FA Step 5">
+                                <div class="step-caption">Step 5: Follow the prompts to complete the setup.</div>
+                            </div>
+                            <div class="mySlides">
+                                <img src="static/gmail_6.jpeg" alt="Gmail 2FA Step 5">
+                                <div class="step-caption">Step 6: Add Backup Option.</div>
+                            </div>
+                        </div>
+                        <div class="button-container">
+                            <button class="button" onclick="plusSlidesFacebook(-1)">&#10094; Previous</button>
+                            <button class="button" onclick="plusSlidesFacebook(1)">Next &#10095;</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="step">
+                    <label for="step3">
+                        <h3>Visual Guide: Enabling 2FA on Twitter</h3> 
+                        <button class="instruction">Instructions</button>
+                    </label>
+                    <div class="instruction-content" style="display: none;">
+                        <div class="slideshow-container" id="twitter-slideshow">
+                            <div class="mySlides">
+                                <img src="static/twitter_1.webp" alt="Twitter 2FA Step 1">
+                                <div class="step-caption">Step 1: Open Twitter and go to Settings and Privacy.</div>
+                            </div>
+                            <div class="mySlides">
+                                <img src="static/twitter_2.jpeg" alt="Twitter 2FA Step 2">
+                                <div class="step-caption">Step 2: Select Security and Account Access. Tap on Two-Factor Authentication.</div>
+                            </div>
+                            <div class="mySlides">
+                                <img src="static/twitter_3.jpeg" alt="Twitter 2FA Step 3">
+                                <div class="step-caption">Step 3: Tap on Get Started.</div>
+                            </div>
+                            <div class="mySlides">
+                                <img src="static/twitter_4.jpeg" alt="Twitter 2FA Step 4">
+                                <div class="step-caption">Step 4: Save Account details.</div>
+                            </div>
+                            <div class="mySlides">
+                                <img src="static/twitter_5.jpeg" alt="Twitter 2FA Step 5">
+                                <div class="step-caption">Step 5: Follow the prompts to finish the setup.</div>
+                            </div>
+                            <div class="mySlides">
+                                <img src="static/twitter_6.jpeg" alt="Twitter 2FA Step 5">
+                                <div class="step-caption">Step 6: Add backup code to Authenticator and Done. </div>
+                            </div>
+                        </div>
+                        <div class="button-container">
+                            <button class="button" onclick="plusSlidesTwitter(-1)">&#10094; Previous</button>
+                            <button class="button" onclick="plusSlidesTwitter(1)">Next &#10095;</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Back Button -->
+        <div class="back-button">
+            <a href="index.html" id="complete" class="button">Done</a>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 30 Days CyberSecurity Challenge. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const instructButtons = document.getElementsByClassName('instruction');
+        for (let i = 0; i < instructButtons.length; i++) {
+            instructButtons[i].addEventListener('click', function() {
+                const content = this.parentElement.nextElementSibling;
+                if (content.style.display === 'block') {
+                    content.style.display = 'none';
+                } else {
+                    content.style.display = 'block';
+                }
+            });
+        }
+
+        let slideIndexInstagram = 0;
+        let slideIndexFacebook = 0;
+        let slideIndexTwitter = 0;
+
+        function showSlidesInstagram(n) {
+            const slides = document.getElementById("instagram-slideshow").getElementsByClassName("mySlides");
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndexInstagram += n;
+            if (slideIndexInstagram >= slides.length) { slideIndexInstagram = 0; }
+            if (slideIndexInstagram < 0) { slideIndexInstagram = slides.length - 1; }
+            slides[slideIndexInstagram].style.display = "block";
+        }
+
+        function plusSlidesInstagram(n) {
+            showSlidesInstagram(n);
+        }
+
+        function showSlidesFacebook(n) {
+            const slides = document.getElementById("gmail-slideshow").getElementsByClassName("mySlides");
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndexFacebook += n;
+            if (slideIndexFacebook >= slides.length) { slideIndexFacebook = 0; }
+            if (slideIndexFacebook < 0) { slideIndexFacebook = slides.length - 1; }
+            slides[slideIndexFacebook].style.display = "block";
+        }
+
+        function plusSlidesFacebook(n) {
+            showSlidesFacebook(n);
+        }
+
+        function showSlidesTwitter(n) {
+            const slides = document.getElementById("twitter-slideshow").getElementsByClassName("mySlides");
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndexTwitter += n;
+            if (slideIndexTwitter >= slides.length) { slideIndexTwitter = 0; }
+            if (slideIndexTwitter < 0) { slideIndexTwitter = slides.length - 1; }
+            slides[slideIndexTwitter].style.display = "block";
+        }
+
+        function plusSlidesTwitter(n) {
+            showSlidesTwitter(n);
+        }
+
+        // Initial display
+        showSlidesInstagram(0);
+        showSlidesFacebook(0);
+        showSlidesTwitter(0);
+    </script>
+    
+</body>
+</html>

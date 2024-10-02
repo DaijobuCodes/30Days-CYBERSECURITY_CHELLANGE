@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strengthen Your Passwords: A Crucial Task</title>
+    <link rel="stylesheet" href="templets/day3new.css">
+    <script src="script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="calendar">
+            <div class="calendar-day">
+                <p>Day 3</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <div class="head">
+        <p><a href="index.html"> <b> Bossing your Passwords</b></a></p>
+    </div>
+
+    <!-- Main Content Section -->
+    <div class="container">
+        <section class="intro">
+            <h1> Complete Guide to Using Password Managers on Windows & Mac OS</h1>
+            <p>Password managers act like secure vaults for your login info, so you only need to remember one master password. They generate strong passwords and autofill them for easy access. Whether you use Windows or Mac, setting one up is quick and keeps your accounts safe!</p>
+            <img src="static/passwordex.png" alt="Strong Passwords" class="responsive-img">
+        </section>
+
+        <section class="impact-card">
+            <h2>What is a Password Manager?</h2>
+            <p>A password manager is a tool that securely stores and organizes your passwords. It allows you to remember only one master password, while it generates and stores the rest of your passwords safely.</p>
+            <img src="static/passwordmeme.png" alt="Data Breach Incident" class="responsive-img">
+        </section>
+
+
+        <section class="steps-card">
+            <h2>Challenge Steps</h2>
+            <div class="steps">
+                <div class="step">
+                    <label for="step1">
+                        <h3>Step 1: Procedure to Start Using a Password Manager on Windows</h3> 
+                        <button class="instruction">Instructions</button>
+                    </label>
+                    <div class="instruction-content" style="display: none;">
+                        <p><b>Instructions:</b><li>Go to the Chrome Web Store.</li>
+                            <li>Search for a password manager.</li>
+                            <li>Select one (e.g., Dashlane Password Manager).</li>
+                            <li>Click "Add Extension" in the pop-up window.</li>
+                            <li>Download the file.</li>
+                            <li>Open the Dashlane Password Manager.</li>
+                            <li>Manage your passwords by selecting an option.</li> </p>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/GuBLaVJHO0A?si=4CQvrYouP336aHiX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                        
+                    </div>
+                </div>
+
+                <div class="step">
+                    <label for="step2">
+                        <h3>Step 2: Procedure to Start Using a Password Manager on Mac OS</h3> 
+                        <button class="instruction">Instructions</button>
+                    </label>
+                    <div class="instruction-content" style="display: none;">
+                        <p><b>Instructions:</b> <li>Go to the Chrome Web Store.</li>
+                            <li>Search for a password manager.</li>
+                            <li>Click "Add Extension" in the pop-up window.</li>
+                            <li>Open the Dashlane Password Manager and log in.</li></p>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/dLXOu_tW5kY?si=Yyhpd0iYy6n7XmHl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+        </section>
+
+        <!-- Back Button -->
+        <div class="back-button">
+            <a href="index.html" id="complete" class="button">Done</a>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>30 Days Cyber Security Challenge. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const instructButtons = document.getElementsByClassName('instruction');
+        for (let i = 0; i < instructButtons.length; i++) {
+            instructButtons[i].addEventListener('click', function() {
+                const content = this.parentElement.nextElementSibling;
+                if (content.style.display === 'block') {
+                    content.style.display = 'none';
+                } else {
+                    content.style.display = 'block';
+                }
+            });
+        }
+    </script>
+    
+</body>
+</html>

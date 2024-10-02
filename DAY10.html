@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Your Privacy Settings: A Crucial Task</title>
+    <link rel="stylesheet" href="templets/day1new.css">
+    <script src="script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="calendar">
+            <div class="calendar-day">
+                <p>Day 10</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <div class="head">
+        <p><a href="index.html"> <b>Browser Security Challenge</b></a></p>
+    </div>
+
+    <!-- Main Content Section -->
+    <div class="container">
+        <section class="intro">
+            <h1>Why Regularly Auditing Your Privacy is Essential</h1>
+            <p>In today’s digital world, our online presence holds vast amounts of personal information. Neglecting to review and update privacy settings on critical accounts poses significant risks. Regularly reviewing these settings helps safeguard personal information and enhance security.</p>
+            
+        </section>
+
+        <section class="impact-card">
+            <h2>Why Is It Important?</h2>
+            <p>Regularly reviewing your privacy settings is crucial for several reasons:</p>
+            <ul>
+                <li><b>Protect Personal Information:</b> Safeguarding sensitive data like addresses and financial information helps prevent identity theft and fraud.</li>
+                <li><b>Control Data Sharing:</b> Opting out of unwanted data sharing gives you more control over your personal information.</li>
+                <li><b>Stay Updated:</b> Online platforms often change their privacy policies, and regular reviews ensure your preferences align with these updates.</li>
+                <li><b>Enhance Security:</b> Keeping settings up to date reduces the risk of unauthorized access and hacking attempts.</li>
+                <li><b>Reputation Management:</b> Managing what others can see protects your personal and professional reputation.</li>
+            </ul>
+            
+        </section>
+
+        <section class="risks-card">
+            <h2>Risks of Neglecting Privacy Settings</h2>
+            <p>Failing to review your privacy settings can expose you to significant risks, such as:</p>
+            <ul>
+                <li>Identity theft through unauthorized access to personal information.</li>
+                <li>Data breaches due to poorly managed settings.</li>
+                <li>Unwanted solicitation from third-party advertisers.</li>
+                <li>Loss of control over how your data is used and shared.</li>
+                <li>Damage to your personal and professional reputation.</li>
+            </ul>
+            
+        </section>
+
+        <section class="steps-card">
+            <h2>Challenge Steps</h2>
+            <div class="steps">
+                <div class="step">
+                    <label for="step1">
+                        <h3>Step 1: Conduct a Privacy Audit</h3>
+                        <button class="instruction">Instructions</button>
+
+                    </label>
+                    <div class="instruction-content">
+                        <p><b>Instructions:</b> Review the privacy settings of each critical account you have, noting any areas that need adjustment.</p>
+                        
+                    </div>
+                </div>
+                <div class="step">
+                    <label for="step2">
+                        <h3>Step 2: Use Privacy Checkup Tools</h3>
+                        <button class="instruction">Instructions</button>
+
+                    </label>
+                    <div class="instruction-content">
+                        <p><b>Instructions:</b> Utilize tools provided by platforms to guide you through the privacy settings review process.</p>
+                        
+                    </div>
+                </div>
+                <div class="step">
+                    <label for="step3">
+                        <h3>Step 3: Stay Informed</h3>
+                        <button class="instruction">Instructions</button>
+
+                    </label>
+                    <div class="instruction-content">
+                        <p><b>Instructions:</b> Keep up with updates from platforms regarding changes to privacy policies and settings.</p>
+                        
+                    </div>
+                </div>
+                <div class="step">
+                    <label for="step4">
+                        <h3>Step 4: Engage with Community Resources</h3>
+                        <button class="instruction">Instructions</button>
+
+                    </label>
+                    <div class="instruction-content">
+                        <p><b>Instructions:</b> Join forums or groups focused on online safety to share experiences and learn best practices.</p>
+                        
+                    </div>
+                </div>
+                <div class="step">
+                    <label for="step5">
+                        <h3>Step 5: Set a Regular Review Schedule</h3>
+                        <button class="instruction">Instructions</button>
+
+                    </label>
+                    <div class="instruction-content">
+                        <p><b>Instructions:</b> Make it a habit to review your privacy settings at least once every few months.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <div class="videos">
+            <h2>References: </h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/2tvSlk3JpPI?si=LeaPQuernG-40brB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+        </div>
+
+        <!-- Back Button -->
+        <div class="back-button">
+            <a href="index.html" id="complete" class="button">Done</a>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 30 Days CyberSecurity Challenge. All rights reserved.</p>
+    </footer>
+    <script>
+        const instructButtons = document.getElementsByClassName('instruction');
+        for (let i = 0; i < instructButtons.length; i++) {
+            instructButtons[i].addEventListener('click', function() {
+                const content = this.parentElement.nextElementSibling;
+                if (content.style.display === 'block') {
+                    content.style.display = 'none';
+                } else {
+                    content.style.display = 'block';
+                }
+            });
+        }
+    </script>
+</body>
+</html>

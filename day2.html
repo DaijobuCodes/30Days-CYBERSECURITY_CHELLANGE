@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strengthen Your Passwords: A Crucial Task</title>
+    <link rel="stylesheet" href="templets/day1new.css">
+    <script src="script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="calendar">
+            <div class="calendar-day">
+                <p>Day 2</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <div class="head">
+        <p><a href="index.html"> <b>Password Strength Challenge</b></a></p>
+    </div>
+
+    <!-- Main Content Section -->
+    <div class="container">
+        <section class="intro">
+            <h1>Why Strong Passwords are Essential</h1>
+            <p>In a world where cyber threats are ever-present, having strong passwords is crucial for protecting your personal and financial information. Weak passwords can lead to unauthorized access and identity theft. A strong password is your first line of defense against cyber attacks.</p>
+            <img src="static/strong-password.jpg" alt="Strong Passwords" class="responsive-img">
+        </section>
+
+        <section class="impact-card">
+            <h2>Real-Life Incident</h2>
+            <p>In 2019, the data breach of a major social media platform exposed millions of user passwords that were stored in plain text. This incident underlined the necessity of using strong, unique passwords for each account to safeguard against such breaches. The breach led to financial loss and damaged the company's reputation.</p>
+            <img src="static/data-breach.jpg" alt="Data Breach Incident" class="responsive-img">
+        </section>
+
+        <section class="risks-card">
+            <h2>Risks of Weak Passwords</h2>
+            <p>Using weak passwords can expose you to various risks, including:</p>
+            <ul>
+                <li>Unauthorized access to personal and financial accounts.</li>
+                <li>Identity theft and financial loss.</li>
+                <li>Loss of data and privacy breaches.</li>
+                <li>Permanent damage to your online reputation.</li>
+            </ul>
+            <img src="static/password-risks.jpg" alt="Risks of Weak Passwords" class="responsive-img">
+        </section>
+
+        <section class="steps-card">
+            <h2>Challenge Steps</h2>
+            <div class="steps">
+                <div class="step">
+                    <label for="step1">
+                        <h3>Step 1: Create a Strong Password</h3> 
+                        <button class="instruction">Instructions</button>
+                    </label>
+                    <div class="instruction-content" style="display: none;">
+                        <p><b>Instructions:</b> Use at least 12 characters, including a mix of upper and lower case letters, numbers, and special characters. Avoid using easily guessable information.</p>
+                        <img src="static/step_1.jpeg" alt="Creating a Strong Password" class="responsive-img">
+                    </div>
+                </div>
+                <div class="step">
+                    <label for="step2">
+                        <h3>Step 2: Avoid Common Passwords</h3> 
+                        <button class="instruction">Instructions</button>
+                    </label>
+                    <div class="instruction-content" style="display: none;">
+                        <p><b>Instructions:</b> Steer clear of easily guessable passwords like "password123" or your birthdate. Use password checkers to identify weak passwords.</p>
+                        <img src="static/step_2.jpeg" alt="Avoiding Common Passwords" class="responsive-img">
+                    </div>
+                </div>
+                <div class="step">
+                    <label for="step3">
+                        <h3>Step 3: Use a Password Manager</h3> 
+                        <button class="instruction">Instructions</button>
+                    </label>
+                    <div class="instruction-content" style="display: none;">
+                        <p><b>Instructions:</b> Consider using a password manager to generate and store complex passwords securely. This helps manage multiple accounts without repeating passwords.</p>
+                        <img src="static/step_3.jpeg" alt="Using a Password Manager" class="responsive-img">
+                    </div>
+                </div>
+                <div class="step">
+                    <label for="step4">
+                        <h3>Step 4: Enable Two-Factor Authentication</h3> 
+                        <button class="instruction">Instructions</button>
+                    </label>
+                    <div class="instruction-content" style="display: none;">
+                        <p><b>Instructions:</b> Activate two-factor authentication on your accounts to add an extra layer of security. This requires a second form of verification in addition to your password.</p>
+                        <img src="static/step_4.png" alt="Two-Factor Authentication" class="responsive-img">
+                    </div>
+                </div>
+                <div class="step">
+                    <label for="step5">
+                        <h3>Step 5: Regularly Update Your Passwords</h3> 
+                        <button class="instruction">Instructions</button>
+                    </label>
+                    <div class="instruction-content" style="display: none;">
+                        <p><b>Instructions:</b> Change your passwords regularly, ideally every 3 to 6 months. Monitor your accounts for suspicious activity.</p>
+                        <img src="static/step_5.jpeg" alt="Updating Passwords" class="responsive-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Back Button -->
+        <div class="back-button">
+            <a href="index.html" id="complete" class="button">Done</a>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 30 Days CyberSecurity Challenge. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const instructButtons = document.getElementsByClassName('instruction');
+        for (let i = 0; i < instructButtons.length; i++) {
+            instructButtons[i].addEventListener('click', function() {
+                const content = this.parentElement.nextElementSibling;
+                if (content.style.display === 'block') {
+                    content.style.display = 'none';
+                } else {
+                    content.style.display = 'block';
+                }
+            });
+        }
+    </script>
+    
+</body>
+</html>

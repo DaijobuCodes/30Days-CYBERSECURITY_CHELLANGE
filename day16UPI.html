@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UPI Guide: A Revolution in Digital Payments</title>
+    <link rel="stylesheet" href="day1new.css">
+    <script src="script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="calendar">
+            <div class="calendar-day">
+                <p>Day 16</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <div class="head">
+        <p><a href="index.html"> <b>UPI Payment Guide</b></a></p>
+    </div>
+
+    <!-- Main Content Section -->
+    <div class="container">
+        <section class="intro">
+            <h1>UPI: Revolutionizing Digital Payments in India</h1>
+            <p>Unified Payments Interface (UPI) has changed the way we handle digital transactions, making them seamless, instant, and secure. With UPI, you can transfer money, pay for services, and make purchases without sharing bank details—just by using a UPI ID or QR code.</p>
+            <img src="UPI .png" alt="UPI Digital Payments" class="responsive-img">
+        </section>
+
+        <!-- Real-Life Example Section -->
+        <section class="impact-card">
+            <h2>Real-Life Example of UPI Success</h2>
+            <p>In 2020, UPI saw massive adoption as people moved away from cash payments during the pandemic. It became a lifeline for many businesses, especially small vendors who could quickly accept payments through QR codes. UPI's instant and secure payments helped keep many businesses afloat during challenging times.</p>
+            <img src="UPI 2.png" alt="UPI in Real Life" class="responsive-img">
+        </section>
+
+        <!-- Why UPI is Important Section -->
+        <section class="risks-card">
+            <h2>Why UPI is Essential for Digital Payments</h2>
+            <p>UPI provides many benefits that make it a crucial part of India's digital payment ecosystem:</p>
+            <ul>
+                <li>Instant, 24/7 money transfers, even on holidays.</li>
+                <li>No need to share bank details for transactions.</li>
+                <li>Seamless payments with just a UPI ID or QR code.</li>
+                <li>Widely accepted by businesses, merchants, and individuals.</li>
+            </ul>
+            <img src="UPI 3.png" alt="UPI Benefits" class="responsive-img">
+        </section>
+
+        <section class="steps-card">
+            <h2>Steps to Secure UPI for Payments</h2>
+            <div class="steps">
+                <!-- Step 1: Link Bank Account -->
+                <div class="step">
+                    <label for="step1">
+                        <h3>Step 1: Use a Strong and Confidential UPI PIN</h3>
+                        <button class="instruction">Instructions</button>
+                    </label>
+                    <div class="instruction-content" style="display: none;">
+                        <p>Set a unique, strong UPI PIN and never share it with anyone. Your UPI PIN is required to authorize transactions, so keeping it secure is essential to prevent unauthorized access.</p>
+                        
+                        <img src="UPI 4.png" alt="Link Bank Account to UPI" class="responsive-img">
+                    </div>
+                </div>
+
+                <!-- Step 2: Send Money -->
+                <div class="step">
+                    <label for="step2">
+                        <h3>Step 2: Enable App Lock and Biometric Authentication</h3>
+                        <button class="instruction">Instructions</button>
+                    </label>
+                    <div class="instruction-content" style="display: none;">
+                        <p>Add an extra layer of security by setting up an app lock or enabling biometric authentication (fingerprint or facial recognition) for your UPI apps. 
+                            This ensures only you can access the app, even if someone gets hold of your phone.</p>
+                        <img src="UPI 5.png" alt="Send Money with UPI" class="responsive-img">
+                    </div>
+                </div>
+
+                <!-- Step 3: Receive Money -->
+                <div class="step">
+                    <label for="step3">
+                        <h3>Step 3: Beware of Phishing Scams and Suspicious Links</h3>
+                        <button class="instruction">Instructions</button>
+                    </label>
+                    <div class="instruction-content" style="display: none;">
+                        <p>Never click on unknown links or share your UPI credentials with anyone.
+                             Always verify the source before scanning QR codes and avoid falling for phishing scams that ask for sensitive information.</p>
+                             <iframe width="560" height="315" src="https://www.youtube.com/embed/gSQgbCo6PAg?si=dOafEUE7zD_ylOKK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Back Button -->
+        <div class="back-button">
+            <a href="index.html" id="complete" class="button">Done</a>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2024 UPI Payment Guide. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const instructButtons = document.getElementsByClassName('instruction');
+        for (let i = 0; i < instructButtons.length; i++) {
+            instructButtons[i].addEventListener('click', function() {
+                const content = this.parentElement.nextElementSibling;
+                if (content.style.display === 'block') {
+                    content.style.display = 'none';
+                } else {
+                    content.style.display = 'block';
+                }
+            });
+        }
+    </script>
+
+</body>
+</html>
